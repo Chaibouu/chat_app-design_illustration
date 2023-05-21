@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Chat app design</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -15,39 +16,40 @@
     <div class="phone">
       <div class="ecran">
         <div class="ecoute"></div>
-        <div></div>
-        
+        <div class="tete">
+          <a href="accueil.html"><i class="fa-solid fa-chevron-left"></i></a>
+          <div class="contenair">
+            <img src="images/avatar.jpg" alt="">
+            <nav>
+              <p class="nom">Samuel Green</p>
+              <p class="text">Available tyo Walk</p>
+            </nav>
+          </div>
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <div class="corps">
+          <div class="chat">That sounds great. I’d be happy with that.</div>
+          <div class="chat">Could you send over some pictures of your <br>dog, please?</div>
+          <div class="img-text chat">
+            <img src="images/dog-image-1.jpg" alt="">
+            <img src="images/dog-image-2.jpg" alt="">
+            <img src="images/dog-image-3.jpg" alt="">
+          </div>
+          <div class="chat1">Here are a few pictures. She’s a happy girl!</div>
+          <div class="chat1"> Can you make it?</div>
+          <div class="chat"> She looks so happy! The time we discussed works. <br> How long shall I take her out for?</div>
+          <div class="chat chat2"> <div class="content-chat2"><div class="cercle"></div> <span> 30 minute walk</span> </div><span class="prix"> $29</span></div>
+          <div class="chat chat2"> <div class="content-chat2"><div class="cercle"></div> <span> 1 hour walk</span> </div><span class="prix"> $49</span></div>
+          <div class=" chat chat3 reponse"> 
+            <input type="text" placeholder="Type a message...">
+            <button title="btn"><i class="fa-solid fa-angle-right"></i></button>
+          </div>
+        </div>
       </div>
     </div>
-
+ 
   </main>
 
-  <!-- Samuel Green
-  Available to Walk
-
-  That sounds great. I’d be happy with that.
-
-  Could you send over some pictures of your dog, please?
-
-  Here are a few pictures. She’s a happy girl!
-
-  Can you make it?
-
-  She looks so happy! The time we discussed works. How long shall I take her out for?
-
-  30 minute walk
-  $29
-
-  1 hour walk
-  $49
-
-  Type a message…
-
-
   
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
 </body>
 </html>
