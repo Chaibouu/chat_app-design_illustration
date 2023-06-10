@@ -75,3 +75,9 @@ body{
     border-top-left-radius: 40px;
   
 }
+.ecran .tete i{
+    margin-right: 10px;
+}
+.ecran .tete i:nth-child(1){
+    margin-left: 235px;
+}
